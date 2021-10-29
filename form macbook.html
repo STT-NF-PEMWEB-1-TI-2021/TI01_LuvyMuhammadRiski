@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macboook</title>
+</head>
+<style>
+    /* Add a black background color to the top navigation */
+    
+    .topnav {
+        background-color: rgb(255, 227, 134);
+        overflow: hidden;
+    }
+    /* Style the links inside the navigation bar */
+    
+    .topnav a {
+        float: left;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    /* Change the color of links on hover */
+    
+    .topnav a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    /* Add a color to the active/current link */
+    
+    .topnav a.active {
+        background-color: #ffc65d;
+        color: rgb(0, 0, 0);
+    }
+    
+    input[type=text] {
+        width: 100%;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    select{
+        width: auto;
+    }
+</style>
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#Genarate Link">Genarate Link</a>
+    <a href="#Transaction History">Transaction History</a>
+    <a href="#Policy">Policy</a>
+    <a href="#Logout">Logout</a>
+  </div>
+<body>
+    <div style="display: flex;">
+        <div>
+            <img style="margin-top: 50px; margin-left: 50px; margin-right: 50px;" src="/apple.jpeg" 
+            alt="" width="250px" height="210px">
+            <button style="margin-left: 50px; display: flex;">
+                Upload Picture
+            </button>
+        </div>
+        <table>
+            <tr>
+                <td>Nama Barang</td>
+                <td><input type="text" name="username">
+                </td>
+            </tr>
+            <tr>
+                <td>Description</td>
+                <td><textarea rows="7" cols="40" type="text" name="username"></textarea></td>
+            </tr>
+            <tr>
+                <td>Acount Number</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Bank</td>
+                <td><select name="lala6">
+                <option>BCA</option>
+                <option>BRI</option>
+                <option>BNI</option>
+                <option>BJB</option>
+                <option>MANDIRI</option>
+                <option>ATM BERSAMA</option>
+                <option>BANK DKI</option>
+                <option>BANK MEGA</option>
+                <option>CIMB</option>
+
+                <option value="EBTG"></option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Holder</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>transaksi</td>
+                <td><select name="6">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><small>if transaction is for 3 person choose 3 from the drop down list</small></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input style="color: green;" type="checkbox" name="Topping" value="RedSauce"><span style="color:green;">Send to Mobile Phone</span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input style="background-color: green;" type="checkbox" name="Topping" value="RedSauce"><span style="color:green;">Send to Email</span></td>
+            </tr>
+            <tr>
+                <td>Send To Mobile Phone</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>Send To Email</td>
+                <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <p><input style="background-color: green;" type="submit" value="generation nobr link"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
