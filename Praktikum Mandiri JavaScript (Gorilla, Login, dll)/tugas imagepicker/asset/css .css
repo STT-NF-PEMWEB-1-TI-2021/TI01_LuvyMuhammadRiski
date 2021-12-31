@@ -1,0 +1,23 @@
+* 
+{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.body 
+{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.h1
+{
+    text-align: center;
+}
+.fl
+{
+    background-color: burlywood;
+}
+.Gambar 
+{
+    width: 50vh;
+}
